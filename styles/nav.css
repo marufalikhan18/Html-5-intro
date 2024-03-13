@@ -25,3 +25,7 @@ nav ul .dropdown{
 nav li:hover > .dropdown{
     display: block;
 }
+.blog{
+    display: inline-block;
+    margin: 10px 5px 15px ;
+}
