@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vodeo Audio tag Practice </title>
     <link rel="stylesheet" href="styles/nav.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -13,15 +15,33 @@
                 <li><a href="video.html"> Video</a></li>
                 <li><a href="form.html">Form</a></li>
                 <li><a href="index.html">Blog</a></li>
-                <li><a href="table.html">Table</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html"> Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
+    <br>
+    <br>
     <h2>Audio</h2>
-    <audio controls src="assets/car sound.mp3"></audio> <br>
+    <audio aria-details="border" controls src="assets/car sound.mp3"></audio>
+    <br>
+    <h3>Video</h3>
     <video controls width="500px" src="assets/video (2160p).mp4"></video>
 
-    <br> <hr>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/oA6i3Isrsoc?si=wQ1aGPfn2oGOyvYv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <hr>
+    <h3>Youtube Video</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oA6i3Isrsoc?si=wQ1aGPfn2oGOyvYv"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 </body>
+
 </html>

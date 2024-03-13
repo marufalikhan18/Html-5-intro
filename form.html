@@ -11,7 +11,6 @@
             display: block;
             margin-top: 10px;
         }
-        
     </style>
 </head>
 <body>
@@ -21,7 +20,15 @@
                     <li><a href="video.html"> Video</a></li>
                     <li><a href="form.html">Form</a></li>
                     <li><a href="index.html">Blog</a></li>
-                    <li><a href="table.html">Table</a></li>
+                    <li>
+                        <a href="table.html">Table</a>
+                        <ul class="dropdown">
+                            <li><a href="video.html"> Video</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="index.html">Blog</a></li>
+                            <li><a href="table.html">Table</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -29,16 +36,17 @@
         <section>
             <h2>Please fill up the form </h2>
             <form>
-                <label for="name"> Your Name:
-                    <input id="name" type="text" placeholder="Your Name">
-                </label>
-                <label for="email">Your Email: 
-                    <input id="email" type="text" placeholder="Your Email"> 
-                </label>
-                <label for="phone"> Your Number:
-                    <input type="number" id="phone" placeholder="Your Number">
-                    
-                </label>
+                <div>
+                    <label for="name">Your Name:
+                        <input id="name" type="text" placeholder="Your Name">
+                    </label>
+                    <label for="email">Your Email: 
+                        <input id="email" type="text" placeholder="Your Email"> 
+                    </label>
+                    <label for="phone">Your Phone:
+                        <input type="number" id="phone" placeholder="Your Number">
+                    </label>
+                </div>
 
                 <fieldset>
                     <legend> Pick one pitha</legend>

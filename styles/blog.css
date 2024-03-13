@@ -1,6 +1,7 @@
 nav > ul > li {
     display: inline;
-    margin: 15px;
+    margin: 20px;
+    padding-top: 20px;
 }
 nav  li > a {
     text-decoration: none;
@@ -11,4 +12,7 @@ footer {
 }
 fieldset{
     margin: 20px;
+}
+form > div > label{
+   
 }

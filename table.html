@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Htnl table</title>
+    <link rel="icon" href="images/around-the-world.png">
+
     <link rel="stylesheet" href="styles/nav.css">
     <style>
-        table{
+        /* table{
             border-collapse: collapse;
-        }
-        td, th{
+        } */
+        /* td, th{
             border: 2px solid black;
             padding: 5px 5px;
            
+        } */
+        td, th{
+            border: 1px solid black;
+            margin: 10px 10px 10px 10px ;
+            padding: 3px;
         }
+        main table{
+            border-collapse: collapse;
+        }
+
+
     </style>
 </head>
 <body>
@@ -23,7 +35,37 @@
                 <li><a href="video.html"> Video</a></li>
                 <li><a href="form.html">Form</a></li>
                 <li><a href="index.html">Blog</a></li>
-                <li><a href="table.html">Table</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                <ul class="dropdown">   
+                    <li><a href="video.html"> Video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li>
+                        <a href="index.html">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="video.html"> Video</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="index.html">Blog</a></li>
+                            <li><a href="table.html">Table</a></li>
+                        </ul></li>
+                    <li>
+                        <a href="table.html">Table</a>
+                        <ul class="dropdown">   
+                            <li><a href="video.html"> Video</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="index.html">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="video.html"> Video</a></li>
+                                    <li><a href="form.html">Form</a></li>
+                                    <li><a href="index.html">Blog</a></li>
+                                    <li><a href="table.html">Table</a></li>
+                                </ul></li>
+                            <li>
+                                <a href="table.html">Table</a>
+                            </li>
+                        </ul></li>
+                </ul>
+                </li>
             </ul>
         </nav>
     </header>
@@ -87,6 +129,89 @@
         <li>Table er vitore table head: th </li>
         <li>Kuno likha sob gulo row er modde dite chaile: colspan="Colum number joto gulate likhata rakhte chai  "</li>
     </ul></main>
+    <hr>
+    <header>
+        <h3>Create a new practice table</h3>
+
+    </header>
+    <main>
+        <table>
+            <caption>College Enrollment 2016-2017</caption>
+            <thead>
+                <tr>
+                    <th>Students ID</th>
+                    <th>Last Name</th>
+                    <th>Initial</th>
+                    <th>Age</th>
+                    <th>Program</th>
+                </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+                <tr>
+                    <td>ST348-245</td>
+                    <td>White</td>
+                    <td>R.</td>
+                    <td>21</td>
+                    <td>Drafting</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Is's all students information</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
     
 </body>
 </html>
